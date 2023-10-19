@@ -1,13 +1,12 @@
-import Parent from './props/Parent.tsx';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import GuestList from './state/GuestList.tsx';
+import EventComponent from './events/EventComponent.tsx';
 
 const App = () => {
   return ( 
   <div>
-    <GuestList/>
-    <Parent/>
+    <EventComponent/>
+    
   </div>  
   );  
 };
